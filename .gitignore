@@ -1,0 +1,45 @@
+Content/
+Content/Video/*.mp4
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv
+env/
+venv/
+*.sqlite3
+*.db
+*.log
+!.env.example
+backend/celerybeat-schedule.dat
+backend/celerybeat-schedule.dir
+# VSCode / PyCharm / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Node / Vue
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.local
+
+# Others
+*.swp
+*.swo
+*.tmp
+*.bak
+
